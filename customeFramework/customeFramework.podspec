@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "customeFramework"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -16,6 +16,6 @@ This CocoaPods library helps you perform calculation.
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/shabnam1999/customFramework.git", :tag => "#{spec.version}" }
-  spec.source_files  = "customeFramework/**/*.{h,m,swift}"
+  spec.source_files  = "customeFramework/**/*"
 
 end

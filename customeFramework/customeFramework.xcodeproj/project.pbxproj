@@ -95,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BD33A58B2879671E00576AF3 /* customeFramework.h */,
+				BD33A5AF2879677600576AF3 /* Assets.xcassets */,
 				BD34A2C62879685100E54512 /* Calculator.swift */,
 			);
 			path = customeFramework;
@@ -115,7 +116,6 @@
 				BD33A5A82879677500576AF3 /* SceneDelegate.swift */,
 				BD33A5AA2879677500576AF3 /* ViewController.swift */,
 				BD33A5AC2879677500576AF3 /* Main.storyboard */,
-				BD33A5AF2879677600576AF3 /* Assets.xcassets */,
 				BD33A5B12879677600576AF3 /* LaunchScreen.storyboard */,
 				BD33A5B42879677600576AF3 /* Info.plist */,
 			);
