@@ -29,5 +29,28 @@ class customeFrameworkTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    var calculator: Calculator!
+
+        override func setUp() {
+            calculator = Calculator()
+        }
+
+        func testAdd() {
+            XCTAssertEqual(calculator.add(a: 1, b: 1), 2)
+        }
+        
+        func testSub() {
+            XCTAssertEqual(calculator.sub(a: 2, b: 1), 1)
+        }
+    
+    func testMul() {
+        XCTAssertEqual(calculator.mul(a: 2, b: 1), 3)
+    }
+    
+    func testDiv() {
+        XCTAssertEqual(calculator.div(a: 2, b: 1), 4)
+    }
+
 
 }
