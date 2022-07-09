@@ -74,6 +74,7 @@
 		BD33A57E2879671E00576AF3 = {
 			isa = PBXGroup;
 			children = (
+				BD33A5AF2879677600576AF3 /* Assets.xcassets */,
 				BD33A58A2879671E00576AF3 /* customeFramework */,
 				BD33A5942879671E00576AF3 /* customeFrameworkTests */,
 				BD33A5A52879677500576AF3 /* Example */,
@@ -95,7 +96,6 @@
 			isa = PBXGroup;
 			children = (
 				BD33A58B2879671E00576AF3 /* customeFramework.h */,
-				BD33A5AF2879677600576AF3 /* Assets.xcassets */,
 				BD34A2C62879685100E54512 /* Calculator.swift */,
 			);
 			path = customeFramework;
