@@ -18,4 +18,8 @@ This CocoaPods library helps you perform calculation.
   spec.source        = { :git => "https://github.com/shabnam1999/customFramework.git", :tag => "#{spec.version}" }
   spec.source_files  = "customeFramework/**/*"
 
+s.resource_bundles = {
+    'Example' => ['Example/**']
+  }
+
 end

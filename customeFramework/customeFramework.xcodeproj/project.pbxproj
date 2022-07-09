@@ -74,7 +74,6 @@
 		BD33A57E2879671E00576AF3 = {
 			isa = PBXGroup;
 			children = (
-				BD33A5AF2879677600576AF3 /* Assets.xcassets */,
 				BD33A58A2879671E00576AF3 /* customeFramework */,
 				BD33A5942879671E00576AF3 /* customeFrameworkTests */,
 				BD33A5A52879677500576AF3 /* Example */,
@@ -112,6 +111,7 @@
 		BD33A5A52879677500576AF3 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				BD33A5AF2879677600576AF3 /* Assets.xcassets */,
 				BD33A5A62879677500576AF3 /* AppDelegate.swift */,
 				BD33A5A82879677500576AF3 /* SceneDelegate.swift */,
 				BD33A5AA2879677500576AF3 /* ViewController.swift */,
