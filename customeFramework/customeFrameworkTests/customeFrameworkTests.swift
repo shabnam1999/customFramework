@@ -49,7 +49,7 @@ class customeFrameworkTests: XCTestCase {
     }
     
     func testDiv() {
-        XCTAssertEqual(calculator.div(a: 2, b: 1), 4)
+        XCTAssertEqual(calculator.sub(a: 2, b: 1), 4)
     }
 
 
